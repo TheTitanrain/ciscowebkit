@@ -63,7 +63,7 @@ SECRET_KEY = ')v77n*)zax+&mfw#bqsk2-z7r(vfavbh+#kli9d!ah-j*4(ug$'
 DEBUG = True
 
 # Connection Allowed
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['*']
 
 # Application definition
 INSTALLED_APPS = [
@@ -136,10 +136,9 @@ AUTH_PASSWORD_VALIDATORS = [
 # Internationalization
 
 #LANGUAGE_CODE = 'en-us'
-LANGUAGE_CODE = 'ko-KR'
+LANGUAGE_CODE = 'en-us'
 
 LANGUAGES = [
-  ('ko', _('Korean')),
   ('en', _('English')),
 ]
 
@@ -147,7 +146,7 @@ LOCALE_PATHS = (
     os.path.join(BASE_DIR, 'ciscowebkit/locale'),
 )
 
-TIME_ZONE = 'Asia/Seoul'
+TIME_ZONE = 'Asia/Vladivostok'
 
 USE_I18N = True
 
